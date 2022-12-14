@@ -53,3 +53,6 @@ Copydetect can also be run via the python API. An example of basic usage is prov
 >>> detector.generate_html_report()
 Output saved to report/report.html
 ```
+
+## Unittesting
+To run unittests against local copydetect package, use `python -m pytest`. Pytest has already been included in `requirements.txt`.
